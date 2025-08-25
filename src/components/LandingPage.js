@@ -82,26 +82,35 @@ function LandingPage() {
             {" "}
             Search marketplace ...
             <nav className="w-[36px] h-[34px] bg-white rounded-md flex  justify-center items-center">
-              <img className="w-[24px] h-[24px] text-center" src={search} />
+              <img
+                alt="nothing"
+                className="w-[24px] h-[24px] text-center"
+                src={search}
+              />
             </nav>
           </div>
           <img
+            alt="nothing"
             src={coin1}
             className=" hover:animate-spin hover:[animation-duration:5s] animation-play-state:paused absolute top-[102px] left-[700px]"
           />
           <img
+            alt="nothing"
             src={coin2}
             className=" hover:animate-spin hover:[animation-duration:5s] animation-play-state:paused absolute bottom-[170px] right-[930px]"
           />
           <img
+            alt="nothing"
             src={coin3}
             className=" hover:animate-spin hover:[animation-duration:5s] animation-play-state:paused absolute top-[-380px] left-[900px]"
           />
           <img
+            alt="nothing"
             src={coin4}
             className=" hover:animate-spin hover:[animation-duration:5s] animation-play-state:paused absolute top-[-60px] left-[1000px] "
           />
           <img
+            alt="nothing"
             src={coin5}
             className=" hover:animate-spin hover:[animation-duration:5s] animation-play-state:paused absolute top-[-60px] right-[900px] "
           />
@@ -118,6 +127,7 @@ function LandingPage() {
             </p>
 
             <img
+              alt="nothing"
               className="absolute w-[490px] right-[-8px] top-[-65px]"
               src={sellAnything}
             />
@@ -130,7 +140,11 @@ function LandingPage() {
               Whether you need more balance, flexibility, or just a different
               gig, we make it easy to chart a new path.
             </p>
-            <img src={stats} className="absolute left-[0px] bottom-[-1px]" />
+            <img
+              alt="nothing"
+              src={stats}
+              className="absolute left-[0px] bottom-[-1px]"
+            />
           </nav>
         </div>
         <div className="flex gap-[35px] mb-[35px]">
@@ -158,6 +172,7 @@ function LandingPage() {
             </p>
 
             <img
+              alt="nothing"
               className="absolute w-[370px] right-[-20px] top-[30px]"
               src={sellanywhere}
             />
@@ -165,13 +180,13 @@ function LandingPage() {
         </div>
         <div className="container3 mb-[35px] flex flex-row gap-[40px]">
           <nav className="w-[550px] h-[566px] flex justify-center items-center bg-white border relative border-black rounded-[25px]">
-            <img src={sideProject1} />
+            <img alt="nothing" src={sideProject1} />
             <p className="absolute border border-black px-[25px] py-[15px] bg-white rounded-2xl text-[20px] font-medium top-[48px] left-[35px]">
               Instead of building a company...
             </p>
           </nav>
           <nav className="w-[550px] h-[566px] flex justify-center items-center bg-white border relative border-black rounded-[25px]">
-            <img src={sideProject2} />
+            <img alt="nothing" src={sideProject2} />
             <p className="absolute  border border-black px-[25px] py-[15px] bg-white rounded-2xl text-[20px] font-medium bottom-[63px] left-[30px]">
               ...start selling a side project!
             </p>
@@ -184,6 +199,7 @@ function LandingPage() {
           <div className="mb-[50px] bg-[#ffc900] w-[1152px] h-[320px] rounded-full border border-black flex justify-center items-center ">
             <div className="w-[1086px] h-[254px] border border-black px-[32px] rounded-full relative flex justify-center items-center">
               <img
+                alt="nothing"
                 src={coin5}
                 className="w-[230px] animate-spin [animation-duration:5s] hover:[animation-play-state:paused]"
               />
@@ -200,18 +216,22 @@ function LandingPage() {
                 Learn Quickly
               </p>
               <img
+                alt="nothing"
                 src={arrow}
                 className="w-[14px] absolute top-[-13px] left-[193px]"
               />
               <img
+                alt="nothing"
                 src={arrow}
                 className="w-[14px] absolute top-[-13px] left-[700px]"
               />
               <img
+                alt="nothing"
                 src={arrow}
                 className=" rotate-180 w-[14px] absolute bottom-[-13px] left-[490px]"
               />
               <img
+                alt="nothing"
                 src={arrow}
                 className=" rotate-180 w-[14px] absolute bottom-[-13px] left-[930px]"
               />
@@ -274,7 +294,7 @@ function LandingPage() {
               </p>
             </div>
             <nav className="w-[550px] h-[566px] flex justify-center items-center bg-white border relative border-black rounded-[25px]">
-              <img src={typing} />
+              <img alt="nothing" src={typing} />
               <p className="absolute border border-black px-[25px] py-[15px] bg-white rounded-2xl text-[20px] font-medium top-[48px] left-[35px]">
                 Instead of selling a book...
               </p>
@@ -282,7 +302,7 @@ function LandingPage() {
           </div>
           <div className="container2 ">
             <nav className="w-[550px] h-[566px] flex justify-center items-center bg-white border relative border-black rounded-[25px]">
-              <img src={texting} />
+              <img alt="nothing" src={texting} />
               <p className="absolute  border border-black px-[25px] py-[15px] bg-white rounded-2xl text-[20px] font-medium bottom-[63px] left-[30px]">
                 ...start by selling a blog post!
               </p>
@@ -311,7 +331,7 @@ function LandingPage() {
           </p>
         </div>
       </div>
-      <img src={footer} className="w-[100%]" />
+      <img alt="nothing" src={footer} className="w-[100%]" />
     </div>
   );
 }

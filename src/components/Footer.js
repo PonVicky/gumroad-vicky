@@ -31,12 +31,12 @@ function Footer() {
   hover:shadow-[8px_8px_0_#FFD700,14px_14px_0_#FF4500]
           "
           >
-            <img src={arrow} className="w-[18px]" />
+            <img alt="nothing" src={arrow} className="w-[18px]" />
           </nav>
         </div>
 
         <div className="mt-[80px] flex gap-3">
-          <img src={smallLogo} className="w-[24px]" />{" "}
+          <img alt="nothing" src={smallLogo} className="w-[24px]" />{" "}
           <p>&copy; Gumroad, Inc.</p>
         </div>
       </div>
@@ -78,13 +78,30 @@ function Footer() {
         </div>
         <div className="flex flex-row gap-[120px] mt-[90px]">
           <img
+            alt="nothing"
             src={twitter}
             className="cursor-pointer  w-[35px] invert   hover:text-pink-500   "
           />
-          <img src={youtube} className="cursor-pointer  w-[35px] invert " />
-          <img src={instagram} className="cursor-pointer  w-[35px] invert " />
-          <img src={facebook} className="cursor-pointer  w-[35px] invert " />
-          <img src={pinterest} className="cursor-pointer  w-[35px] invert " />
+          <img
+            alt="nothing"
+            src={youtube}
+            className="cursor-pointer  w-[35px] invert "
+          />
+          <img
+            alt="nothing"
+            src={instagram}
+            className="cursor-pointer  w-[35px] invert "
+          />
+          <img
+            alt="nothing"
+            src={facebook}
+            className="cursor-pointer  w-[35px] invert "
+          />
+          <img
+            alt="nothing"
+            src={pinterest}
+            className="cursor-pointer  w-[35px] invert "
+          />
         </div>
       </div>
     </div>

@@ -26,6 +26,7 @@ function Blogs() {
       active:translate-x-0 active:translate-y-0 active:shadow-[4px_4px_0_#000000]"
         >
           <img
+            alt="nothing"
             src={oss}
             className="cursor-pointer rounded-t-md border border-black  "
           />
@@ -51,7 +52,7 @@ function Blogs() {
       hover:shadow-[4px_4px_0_#000000] 
       active:translate-x-0 active:translate-y-0 active:shadow-[4px_4px_0_#000000]"
             >
-              <img src={arrow} className="w-[18px] " />
+              <img alt="nothing" src={arrow} className="w-[18px] " />
             </Link>
           </nav>
           <hr className="border-none h-[0.5px] bg-black mb-[15px]" />
@@ -71,7 +72,7 @@ function Blogs() {
       hover:shadow-[4px_4px_0_#000000] 
       active:translate-x-0 active:translate-y-0 active:shadow-[4px_4px_0_#000000]"
             >
-              <img src={arrow} className="w-[30px] " />
+              <img alt="nothing" src={arrow} className="w-[30px] " />
             </nav>
           </nav>
           <hr className="border-none h-[0.5px] bg-black mb-[15px]" />
@@ -91,7 +92,7 @@ function Blogs() {
       hover:shadow-[4px_4px_0_#000000] 
       active:translate-x-0 active:translate-y-0 active:shadow-[4px_4px_0_#000000]"
             >
-              <img src={arrow} className="w-[18px] " />
+              <img alt="nothing" src={arrow} className="w-[18px] " />
             </nav>
           </nav>
         </div>

@@ -15,6 +15,7 @@ function Cards({ image, heading, text, date, haveImage }) {
       >
         <div className="h-[276px] overflow-hidden">
           <img
+            alt="nothing"
             src={image}
             className="w-full h-full object-cover block rounded-md"
           />

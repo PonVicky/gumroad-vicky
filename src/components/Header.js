@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-white shadow">
       <div className="bg-black w-full flex items-center justify-between pl-6 cursor-pointer border-b-[1.5px] border-black">
-        <img src={gumroad} className="w-[236px] h-auto invert" />
+        <img alt="nothing" src={gumroad} className="w-[236px] h-auto invert" />
         <div className="text-[#ffffff] flex gap-4 text-lg items-center font-montserrat ">
           <p className="hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer ">
             Discover

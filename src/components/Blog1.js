@@ -11,7 +11,7 @@ function Blog1() {
         🚀Gumroad April Recap: What We've Shipped
       </h1>
       <p className="mt-[8px] text-sm">May 1, 2025</p>
-      <img src={paint} className="mt-[50px] rounded-md" />
+      <img alt="nothing" src={paint} className="mt-[50px] rounded-md" />
       <div className="font-medium text-[20px]">
         <h1 className=" mt-[100px] mb-[20px] font-bold text-[25px]">
           We're now MIT licensed!💫
