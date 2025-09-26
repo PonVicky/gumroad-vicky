@@ -153,7 +153,7 @@ function Blogs() {
               <p>May 1,2025</p>
             </div>
             <Link
-              to="/blog/${blogID}"
+              to={`/blog/${blogID}`}
               className="cursor-pointer p-[10px] border border-black rounded-md
               
                           transition duration-300 ease-out transform-gpu

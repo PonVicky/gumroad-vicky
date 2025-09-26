@@ -22,17 +22,28 @@ function PricingPage() {
           no monthly charges.
         </p>
         <img
+          alt="nothing"
           className="absolute w-[170px] right-[-20px] bottom-[100px]"
           src={goldcoin5}
         />
-        <img className="absolute top-[-20px] left-[180px]" src={goldcoin2} />
         <img
+          alt="nothing"
+          className="absolute top-[-20px] left-[180px]"
+          src={goldcoin2}
+        />
+        <img
+          alt="nothing"
           className="absolute w-[240px] left-[-33px]  bottom-[80px] "
           src={goldcoin3}
         />
-        <img className="absolute top-[110px] right-[150px]" src={goldcoin4} />
-        {/* <img className="absolute " src={goldcoin5} /> */}
         <img
+          alt="nothing"
+          className="absolute top-[110px] right-[150px]"
+          src={goldcoin4}
+        />
+        {/* <img alt="nothing" className="absolute " src={goldcoin5} /> */}
+        <img
+          alt="nothing"
           className="absolute right-[690px] bottom-[-200px]"
           src={goldcoin6}
         />
@@ -66,7 +77,7 @@ function PricingPage() {
       </div>
       <div className="flex h-[740px] ">
         <div className="container1 w-[50%] h-[100%] bg-[#ff90e8] border border-black flex justify-center items-center flex-col">
-          <img src={features} />
+          <img alt="nothing" src={features} />
         </div>
         <div className="container2 w-[50%] h-[100%] bg-black border-t border-b border-black flex justify-center items-center flex-col text-white">
           <div>
