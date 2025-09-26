@@ -1,4 +1,3 @@
-import goldcoin1 from "../images-and-logos/goldcoin1.svg";
 import goldcoin2 from "../images-and-logos/goldcoin2.svg";
 import goldcoin3 from "../images-and-logos/goldcoin3.svg";
 import goldcoin4 from "../images-and-logos/goldcoin4.svg";
