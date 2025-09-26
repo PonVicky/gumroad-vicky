@@ -15,12 +15,18 @@ function Header() {
           >
             Blog
           </Link>
-          <p className="hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer ">
+          <Link
+            to="/pricing"
+            className="hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer "
+          >
             Pricing
-          </p>
-          <p className=" hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer ">
+          </Link>
+          <Link
+            to="/features"
+            className=" hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer "
+          >
             Features
-          </p>
+          </Link>
           <Link
             to="/"
             className="  hover:bg-white hover:text-black rounded-3xl px-[12px] py-[10px] cursor-pointer mr-[10px] "

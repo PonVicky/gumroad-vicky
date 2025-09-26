@@ -13,7 +13,116 @@ import image8 from "../images-and-logos/monkeynewsletter.png";
 import image10 from "../images-and-logos/image10.png";
 
 import { Link } from "react-router-dom";
+export const cardDetails = [
+  {
+    id: 1,
+    image: image1,
+    heading: "🚀 Gumroad April Recap: What We've Shipped",
+    date: "May 1, 2025",
+    haveImage: true,
+  },
+  {
+    id: 2,
+    image: image2,
+    heading:
+      "Creator Spotlight: Kyle T Webster | How selling brushes on Gumroad led to partnerships with Pixar, Disney, and eventually Adobe",
+    date: "April 16, 2025",
+    haveImage: true,
+  },
+  {
+    id: 3,
+    image: image3,
+    heading:
+      "Creator Spotlight: Jingsketch | I Made These Brushes for Myself—Now Over a Million Artists Use Them",
+    date: "April 10, 2025",
+    haveImage: true,
+  },
+  {
+    id: 4,
+    image: image4,
+    heading: "A trip down Gumroad: The road Ahead",
+    date: "April 8, 2025",
+    haveImage: true,
+  },
+  {
+    id: 5,
+    image: image5,
+    heading: "A trip down Gumroad: The highs",
+    date: "March 30, 2025",
+    haveImage: true,
+  },
+  {
+    id: 6,
+    image: image6,
+    heading: "A trip down Gumroad: The lows",
+    date: "March 1, 2025",
+    haveImage: true,
+  },
+  {
+    id: 7,
+    image: image7,
+    heading: "A trip down Gumroad: How it started",
+    date: "May 12, 2025",
+    haveImage: true,
+  },
+  {
+    id: 8,
+    image: image8,
+    heading: "🎉 Celebrating Gumroad's 13th Year: 2024 Feature Roundup ✨",
+    date: "March 16, 2025",
+    haveImage: true,
+  },
+  {
+    id: 9,
+    image: image10,
+    heading:
+      "Creator Spotlight: Alvaro Trigo | How I Turned a Side Project Into a Profitable Business with Gumroad",
+    date: "June 10, 2025",
+    haveImage: true,
+  },
+  {
+    id: 10,
+    heading: "🗓️ Next Gumroad public board meeting: May 15 in NYC",
+    text: "Register for the webinar via Zoom here. If you'd like to attend in person (we have a new office in NYC!) please register to attend here.",
 
+    date: "May 1, 2025",
+    haveImage: false,
+  },
+  {
+    id: 11,
+    image: image9,
+    heading: "NEW: Bulk-review your favorite products!",
+    date: "March 23, 2025",
+    haveImage: true,
+  },
+  {
+    id: 12,
+    heading: "TONS of new Gumroad features",
+    text: "I hope you're doing well and enjoying your creative journey with us at Gumroad. We're always striving to improve and simplify your experience, and today, I'm thrilled to share some brand new...",
+    date: "October 9, 2025",
+    haveImage: false,
+  },
+  {
+    id: 13,
+    heading: "New feature: Archive your products",
+    text: "We have a new feature for you this week: Archive your...",
+    date: "July 3, 2023",
+    haveImage: false,
+  },
+  {
+    id: 14,
+    heading: "Specify a Refund Policy for Your Products",
+    date: "May 22, 2023",
+    haveImage: false,
+  },
+  {
+    id: 15,
+    heading: "Introducing: Purchasing Power Parity",
+    date: "May 22, 2023",
+    text: "Creators have global audiences, and can now offer..",
+    haveImage: false,
+  },
+];
 function Blogs() {
   return (
     <div className="w-[96%] min-h-[200px] mx-auto pt-[150px] pb-[50px]    ">
@@ -44,7 +153,7 @@ function Blogs() {
               <p>May 1,2025</p>
             </div>
             <Link
-              to="/blog1"
+              to="/blog/${blogID}"
               className="cursor-pointer p-[10px] border border-black rounded-md
               
                           transition duration-300 ease-out transform-gpu
@@ -99,7 +208,18 @@ function Blogs() {
       </nav>
 
       <div className="grid grid-cols-3 auto-rows-auto w-full mt-[35px]  gap-[36px] ">
-        <Cards
+        {cardDetails.map((items, index) => (
+          <Link key={index} to={`/blog/${items.id}`}>
+            <Cards
+              image={items.image}
+              heading={items.heading}
+              date={items.date}
+              haveImage={items.haveImage}
+            />
+          </Link>
+        ))}
+
+        {/* <Cards
           image={image1}
           heading={"🚀 Gumroad April Recap: What We've Shipped"}
           date={"May 1, 2025"}
@@ -203,7 +323,7 @@ function Blogs() {
           date={"May 22, 2023"}
           text={"Creators have global audiences, and can now offer.."}
           haveImage={false}
-        />
+        /> */}
       </div>
     </div>
   );

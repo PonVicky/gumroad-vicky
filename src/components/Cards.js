@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom";
 function Cards({ image, heading, text, date, haveImage }) {
   let withImage = () => {
     return (
-      <Link
-        to="/blog1"
-        className="w-[462px] h-auto border border-black rounded-md cursor-pointer
+      <div
+        className="w-[462px] h-full border border-black rounded-md cursor-pointer
     
     
      transition duration-300 ease-out transform-gpu
@@ -25,14 +23,13 @@ function Cards({ image, heading, text, date, haveImage }) {
           <p>{text}</p>
           <p>{date}</p>
         </div>
-      </Link>
+      </div>
     );
   };
   let withoutImage = () => {
     return (
-      <Link
-        to="/blog1"
-        className="w-[462px] h-auto border border-black rounded-md cursor-pointer
+      <div
+        className="w-[462px] h-full border border-black rounded-md cursor-pointer
     
     
      transition duration-300 ease-out transform-gpu
@@ -46,7 +43,7 @@ function Cards({ image, heading, text, date, haveImage }) {
           <p>{text}</p>
           <p>{date}</p>
         </div>
-      </Link>
+      </div>
     );
   };
   return haveImage ? withImage() : withoutImage();

@@ -74,6 +74,8 @@ function LandingPage() {
                       transition-all duration-300 ease-out transform-gpu
   hover:-translate-x-[6px] hover:-translate-y-[6px]
   hover:shadow-[8px_8px_0_#FFD700,14px_14px_0_#FF4500]
+
+  hover:cursor-pointer
           "
           >
             Start selling
@@ -250,6 +252,8 @@ function LandingPage() {
                       transition-all duration-300 ease-out transform-gpu
            hover:-translate-x-[6px] hover:-translate-y-[6px]
             hover:shadow-[8px_8px_0_#FFD700,14px_14px_0_#FF4500]
+
+            hover:cursor-pointer
           "
           >
             Find out how
@@ -325,6 +329,8 @@ function LandingPage() {
                       transition-all duration-300 ease-out transform-gpu
            hover:-translate-x-[6px] hover:-translate-y-[6px]
             hover:shadow-[8px_8px_0_#FFD700,14px_14px_0_#FF4500]
+
+            hover:cursor-pointer
           "
           >
             Start selling

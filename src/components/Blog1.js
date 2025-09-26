@@ -1,10 +1,13 @@
 import paint from "../images-and-logos/paint.png";
-import { Link } from "react-router-dom";
-
+import { Link, useParams } from "react-router-dom";
+import { cardDetails } from "./Blogs";
 function Blog1() {
+  const { blogID } = useParams();
+  const product = cardDetails.find((e) => e.id === Number(blogID));
+  console.log(product);
   return (
     <div className="w-[768px] min-h-[500px]  mx-auto mt-[120px] font-montserrat tracking-tight">
-      <Link to="/" className="text-sm font-mono cursor-pointer">
+      <Link to="/blogs" className="text-sm font-mono cursor-pointer">
         ⬅ Back to Blog.
       </Link>
       <h1 className="mt-[20px] text-[40px] font-medium ">
